@@ -9,3 +9,6 @@ jobs:
         
         - name: "List"
           run: ls
+        
+        - name: "Read the file"
+          run: cat README.md

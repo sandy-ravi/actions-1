@@ -4,6 +4,8 @@ jobs:
     test:
         runs-on: ubuntu-latest
         steps:
+        - name: "checkout repo"
+          uses: actions/checkout@v4
         - name: "Welcome"
           run: echo "My first workflow"
         

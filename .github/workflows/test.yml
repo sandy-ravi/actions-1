@@ -1,0 +1,11 @@
+name: My first workflow
+on: push
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+        - name: "Welcome"
+          run: echo "My first workflow"
+        
+        - name: "List"
+          run: ls
